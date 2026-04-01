@@ -6,7 +6,7 @@
 
 h1 {
     text-align: center;
-    padding: 15px;
+    padding: 17px;
 }
 
 input, label {
@@ -17,22 +17,28 @@ label {
     color: rgb(92, 92, 216);
 }
 
-input {
+select, input {
     width: 100%;
 }
 
 .submit {
-    margin: 15px auto 0 auto;
-    width: 40%;
+    margin: 17px auto 0 auto;
+    width: 45%;
     background-color: rgb(156, 228, 204);
-    border-radius: 5px ;
+    border-radius: 6px ;
 }
 
 form {
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 250px;
+    max-width: 600px;
     margin: auto;
-    border: 2px double black;
-    padding: 15px;
+    border: 3px double black;
+    padding: 17px;
 
+}
+
+.g-recaptcha {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
 }
